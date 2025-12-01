@@ -1,69 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="Academy.AppTest" time="0.005" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Academy.AppTest" time="0.01" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
-    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tezborgohain/Desktop/Coding/AzureDevops/Automation-master/target/test-classes:/Users/tezborgohain/Desktop/Coding/AzureDevops/Automation-master/target/classes:/Users/tezborgohain/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/tezborgohain/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-java/4.38.0/selenium-java-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-api/4.38.0/selenium-api-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.38.0/selenium-chrome-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.38.0/selenium-chromium-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-json/4.38.0/selenium-json-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.38.0/selenium-manager-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v140/4.38.0/selenium-devtools-v140-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v141/4.38.0/selenium-devtools-v141-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.38.0/selenium-devtools-v142-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.38.0/selenium-edge-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.38.0/selenium-firefox-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-http/4.38.0/selenium-http-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.38.0/selenium-ie-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.38.0/selenium-remote-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/tezborgohain/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/tezborgohain/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/tezborgohain/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/tezborgohain/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-api/1.55.0/opentelemetry-api-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-context/1.55.0/opentelemetry-context-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-common/1.55.0/opentelemetry-common-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.55.0/opentelemetry-exporter-logging-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.55.0/opentelemetry-sdk-common-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.55.0/opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.55.0/opentelemetry-sdk-extension-autoconfigure-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.55.0/opentelemetry-sdk-trace-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.55.0/opentelemetry-sdk-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.55.0/opentelemetry-sdk-metrics-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.55.0/opentelemetry-sdk-logs-1.55.0.jar:/Users/tezborgohain/.m2/repository/net/bytebuddy/byte-buddy/1.17.8/byte-buddy-1.17.8.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-os/4.38.0/selenium-os-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.38.0/selenium-safari-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-support/4.38.0/selenium-support-4.38.0.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Owner\CoreJava\Automation"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Owner\CoreJava\Automation"/>
-    <property name="java.runtime.version" value="1.8.0_211-b12"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\Owner\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Owner\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\Owner\AppData\Local\Android\Sdk\tools\bin;C:\Users\Owner\AppData\Local\Android\Sdk\platform-tools;C:\Users\Owner\apache-maven-3.6.1\bin;C:\Users\Owner\axis2-1.6.2\bin;C:\Users\Owner\Downloads\chromedriver_win32 (11);C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Users\Owner\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\Owner\AppData\Local\Programs\Python\Python37-32\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Owner\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.3\bin;;;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="maven.conf" value="C:\Users\Owner\apache-maven-3.6.1\bin\../conf"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Users\Owner\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\Owner"/>
-    <property name="user.timezone" value="America/New_York"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="user.name" value="Owner"/>
-    <property name="java.class.path" value="C:\Users\Owner\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_211"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\Owner\apache-maven-3.6.1\bin\.."/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/tezborgohain/Desktop/Coding/AzureDevops/Automation-master/target/surefire/surefirebooter-20251201140712358_3.jar /Users/tezborgohain/Desktop/Coding/AzureDevops/Automation-master/target/surefire 2025-12-01T14-07-12_318-jvmRun1 surefire-20251201140712358_1tmp surefire_0-20251201140712358_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/tezborgohain/Desktop/Coding/AzureDevops/Automation-master/target/test-classes:/Users/tezborgohain/Desktop/Coding/AzureDevops/Automation-master/target/classes:/Users/tezborgohain/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/tezborgohain/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-java/4.38.0/selenium-java-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-api/4.38.0/selenium-api-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.38.0/selenium-chrome-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.38.0/selenium-chromium-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-json/4.38.0/selenium-json-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.38.0/selenium-manager-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v140/4.38.0/selenium-devtools-v140-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v141/4.38.0/selenium-devtools-v141-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.38.0/selenium-devtools-v142-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.38.0/selenium-edge-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.38.0/selenium-firefox-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-http/4.38.0/selenium-http-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.38.0/selenium-ie-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.38.0/selenium-remote-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar:/Users/tezborgohain/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/tezborgohain/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/tezborgohain/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/tezborgohain/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-api/1.55.0/opentelemetry-api-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-context/1.55.0/opentelemetry-context-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-common/1.55.0/opentelemetry-common-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.55.0/opentelemetry-exporter-logging-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.55.0/opentelemetry-sdk-common-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.55.0/opentelemetry-sdk-extension-autoconfigure-spi-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.55.0/opentelemetry-sdk-extension-autoconfigure-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.55.0/opentelemetry-sdk-trace-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.55.0/opentelemetry-sdk-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.55.0/opentelemetry-sdk-metrics-1.55.0.jar:/Users/tezborgohain/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.55.0/opentelemetry-sdk-logs-1.55.0.jar:/Users/tezborgohain/.m2/repository/net/bytebuddy/byte-buddy/1.17.8/byte-buddy-1.17.8.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-os/4.38.0/selenium-os-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/apache/commons/commons-exec/1.5.0/commons-exec-1.5.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.38.0/selenium-safari-driver-4.38.0.jar:/Users/tezborgohain/.m2/repository/org/seleniumhq/selenium/selenium-support/4.38.0/selenium-support-4.38.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="user.home" value="/Users/tezborgohain"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/tezborgohain/Desktop/Coding/AzureDevops/Automation-master"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/tezborgohain/Desktop/Coding/AzureDevops/Automation-master/target/surefire/surefirebooter-20251201140712358_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25+37-LTS-3491"/>
+    <property name="user.name" value="tezborgohain"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.7.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/tezborgohain/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/03/91g0zl6s4pqdxb351r692_t80000gn/T/"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="/Users/tezborgohain/Desktop/Coding/AzureDevops/Automation-master"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/tezborgohain/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25+37-LTS-3491"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase classname="Academy.AppTest" name="testApp" time="0.005"/>
+  <testcase name="testApp" classname="Academy.AppTest" time="0.001"/>
 </testsuite>
