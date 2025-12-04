@@ -17,6 +17,7 @@ public class BrowserTest {
 		
 		ChromeOptions options = new ChromeOptions();
         ChromeDriver driver = new ChromeDriver(options);
+        options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
 		driver.get("https://tborgohainqa01.azurewebsites.net/webapp/");
 		String text =driver.findElement(By.cssSelector("h1")).getText();
 		System.out.println(text);
