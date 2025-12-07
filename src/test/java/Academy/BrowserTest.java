@@ -19,7 +19,7 @@ public class BrowserTest {
         driver.get("https://tborgohainqa01.azurewebsites.net/webapp/");
 
         String text = driver.findElement(By.cssSelector("h1")).getText();
-        Assert.assertEquals("Azure DevOps with Automation", text);
+        Assert.assertEquals("-- Azure DevOps with Automation --", text);
 
         driver.quit();
     }
